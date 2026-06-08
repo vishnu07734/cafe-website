@@ -39,3 +39,54 @@
   font-size: 20px;
   color: #333;
 }
+/* Tablets */
+@media (max-width: 768px) {
+  .menu-item {
+    width: 250px;
+  }
+
+  .menu-item-image img {
+    height: 160px;
+  }
+
+  .menu-item-details h3 {
+    font-size: 16px;
+  }
+
+  .menu-item-details p {
+    font-size: 14px;
+  }
+
+  .menu-item-details h4 {
+    font-size: 18px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .menu-item {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .menu-item-image img {
+    height: 200px;
+  }
+
+  .menu-item-details {
+    padding: 12px;
+  }
+
+  .menu-item-details h3 {
+    font-size: 15px;
+  }
+
+  .menu-item-details p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .menu-item-details h4 {
+    font-size: 17px;
+  }
+}
